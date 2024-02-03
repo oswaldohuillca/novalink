@@ -50,7 +50,7 @@ app.get('/api/v1/peru/ubigeo', (c) => {
  *   HTTP/1.1 200 OK
  */
 app.get('/api/v1/peru/ubigeo/:department', (c) => {
-  const department = ubigeo.find(el => el.codigo_ubigeo === c.req.param('department'))
+  const department = ubigeo.find(el => el.ubigeo_code === c.req.param('department'))
   if (!department) return c.json({ message: 'Department Resource Not found' }, 404)
   return c.json(department)
 })
@@ -68,10 +68,10 @@ app.get('/api/v1/peru/ubigeo/:department', (c) => {
  */
 app.get('/api/v1/peru/ubigeo/:department/:province', (c) => {
 
-  const department = ubigeo.find(el => el.codigo_ubigeo === c.req.param('department'))
+  const department = ubigeo.find(el => el.ubigeo_code === c.req.param('department'))
   if (!department) return c.json({ message: 'Department Resource Not found' }, 404)
 
-  const province = department.provinces.find(el => el.codigo_ubigeo === c.req.param('province'))
+  const province = department.provinces.find(el => el.ubigeo_code === c.req.param('province'))
   if (!province) return c.json({ message: 'Province Resource Not found' }, 404)
 
   return c.json(province)
@@ -89,13 +89,13 @@ app.get('/api/v1/peru/ubigeo/:department/:province', (c) => {
  *  HTTP/1.1 200 OK
  */
 app.get('/api/v1/peru/ubigeo/:department/:province/:district', (c) => {
-  const department = ubigeo.find(el => el.codigo_ubigeo === c.req.param('department'))
+  const department = ubigeo.find(el => el.ubigeo_code === c.req.param('department'))
   if (!department) return c.json({ message: 'Department Resource Not found' }, 404)
 
-  const province = department.provinces.find(el => el.codigo_ubigeo === c.req.param('province'))
+  const province = department.provinces.find(el => el.ubigeo_code === c.req.param('province'))
   if (!province) return c.json({ message: 'Province Resource Not found' }, 404)
 
-  const district = province.districts.find(el => el.codigo_ubigeo === c.req.param('district'))
+  const district = province.districts.find(el => el.ubigeo_code === c.req.param('district'))
   if (!district) return c.json({ message: 'District Resource Not found' }, 404)
 
   return c.json(district)
