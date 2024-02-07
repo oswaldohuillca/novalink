@@ -7644,6 +7644,90 @@
     ]
   },
   {
+    "ubigeo_id": "3284",
+    "ubigeo_name": "Callao",
+    "ubigeo_code": "07",
+    "ubigeo_tag": "Callao, Perú",
+    "ubigeo_search": "callao perú",
+    "ubigeo_children_number": "7",
+    "ubigeo_level": "1",
+    "ubigeo_parent_id": "2533",
+    "provinces": [
+      {
+        "ubigeo_id": "3285",
+        "ubigeo_name": "Callao",
+        "ubigeo_code": "01",
+        "ubigeo_tag": "Callao, Callao, Lima",
+        "ubigeo_search": "callao callao lima",
+        "ubigeo_children_number": "6",
+        "ubigeo_level": "2",
+        "ubigeo_parent_id": "3926",
+        "districts": [
+          {
+            "ubigeo_id": "3287",
+            "ubigeo_name": "Bellavista",
+            "ubigeo_code": "02",
+            "ubigeo_tag": "Bellavista, Callao",
+            "ubigeo_search": "bellavista callao",
+            "ubigeo_children_number": "0",
+            "ubigeo_level": "3",
+            "ubigeo_parent_id": "3285"
+          },
+          {
+            "ubigeo_id": "3286",
+            "ubigeo_name": "Callao",
+            "ubigeo_code": "01",
+            "ubigeo_tag": "Callao, Callao",
+            "ubigeo_search": "callao callao",
+            "ubigeo_children_number": "0",
+            "ubigeo_level": "3",
+            "ubigeo_parent_id": "3285"
+          },
+          {
+            "ubigeo_id": "3288",
+            "ubigeo_name": "Carmen de la Legua Reynoso",
+            "ubigeo_code": "03",
+            "ubigeo_tag": "Carmen de la Legua Reynoso, Callao",
+            "ubigeo_search": "carmen de la legua reynoso callao",
+            "ubigeo_children_number": "0",
+            "ubigeo_level": "3",
+            "ubigeo_parent_id": "3285"
+          },
+          {
+            "ubigeo_id": "3289",
+            "ubigeo_name": "La Perla",
+            "ubigeo_code": "04",
+            "ubigeo_tag": "La Perla, Callao",
+            "ubigeo_search": "la perla callao",
+            "ubigeo_children_number": "0",
+            "ubigeo_level": "3",
+            "ubigeo_parent_id": "3285"
+          },
+          {
+            "ubigeo_id": "3290",
+            "ubigeo_name": "La Punta",
+            "ubigeo_code": "05",
+            "ubigeo_tag": "La Punta, Callao",
+            "ubigeo_search": "la punta callao",
+            "ubigeo_children_number": "0",
+            "ubigeo_level": "3",
+            "ubigeo_parent_id": "3285"
+          },
+          {
+            "ubigeo_id": "3291",
+            "ubigeo_name": "Ventanilla",
+            "ubigeo_code": "06",
+            "ubigeo_tag": "Ventanilla, Callao",
+            "ubigeo_search": "ventanilla callao",
+            "ubigeo_children_number": "0",
+            "ubigeo_level": "3",
+            "ubigeo_parent_id": "3285"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "ubigeo_id": "3292",
     "ubigeo_name": "Cusco",
     "ubigeo_code": "08",
@@ -14248,78 +14332,6 @@
             "ubigeo_children_number": "0",
             "ubigeo_level": "3",
             "ubigeo_parent_id": "3977"
-          }
-        ]
-      },
-      {
-        "ubigeo_id": "3285",
-        "ubigeo_name": "Callao",
-        "ubigeo_code": "01",
-        "ubigeo_tag": "Callao, Callao, Lima",
-        "ubigeo_search": "callao callao lima",
-        "ubigeo_children_number": "6",
-        "ubigeo_level": "2",
-        "ubigeo_parent_id": "3926",
-        "districts": [
-          {
-            "ubigeo_id": "3287",
-            "ubigeo_name": "Bellavista",
-            "ubigeo_code": "02",
-            "ubigeo_tag": "Bellavista, Callao",
-            "ubigeo_search": "bellavista callao",
-            "ubigeo_children_number": "0",
-            "ubigeo_level": "3",
-            "ubigeo_parent_id": "3285"
-          },
-          {
-            "ubigeo_id": "3286",
-            "ubigeo_name": "Callao",
-            "ubigeo_code": "01",
-            "ubigeo_tag": "Callao, Callao",
-            "ubigeo_search": "callao callao",
-            "ubigeo_children_number": "0",
-            "ubigeo_level": "3",
-            "ubigeo_parent_id": "3285"
-          },
-          {
-            "ubigeo_id": "3288",
-            "ubigeo_name": "Carmen de la Legua Reynoso",
-            "ubigeo_code": "03",
-            "ubigeo_tag": "Carmen de la Legua Reynoso, Callao",
-            "ubigeo_search": "carmen de la legua reynoso callao",
-            "ubigeo_children_number": "0",
-            "ubigeo_level": "3",
-            "ubigeo_parent_id": "3285"
-          },
-          {
-            "ubigeo_id": "3289",
-            "ubigeo_name": "La Perla",
-            "ubigeo_code": "04",
-            "ubigeo_tag": "La Perla, Callao",
-            "ubigeo_search": "la perla callao",
-            "ubigeo_children_number": "0",
-            "ubigeo_level": "3",
-            "ubigeo_parent_id": "3285"
-          },
-          {
-            "ubigeo_id": "3290",
-            "ubigeo_name": "La Punta",
-            "ubigeo_code": "05",
-            "ubigeo_tag": "La Punta, Callao",
-            "ubigeo_search": "la punta callao",
-            "ubigeo_children_number": "0",
-            "ubigeo_level": "3",
-            "ubigeo_parent_id": "3285"
-          },
-          {
-            "ubigeo_id": "3291",
-            "ubigeo_name": "Ventanilla",
-            "ubigeo_code": "06",
-            "ubigeo_tag": "Ventanilla, Callao",
-            "ubigeo_search": "ventanilla callao",
-            "ubigeo_children_number": "0",
-            "ubigeo_level": "3",
-            "ubigeo_parent_id": "3285"
           }
         ]
       },
